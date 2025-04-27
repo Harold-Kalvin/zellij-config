@@ -5,10 +5,9 @@ layout {
       plugin location="zellij:compact-bar"
     }
   }
-  tab name="back.code" {
+  tab name="code" {
     pane command="bash" {
       args "-c" "source .venv/bin/activate && nvim ."
     }
   }
-  tab name="back.server"
 }
